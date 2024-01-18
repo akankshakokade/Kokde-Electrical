@@ -27,6 +27,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Navbar from './Navbar';
 import HomeSection from './HomeSection';
+import AboutUsSection from './AboutUsSection';
 import ServicesSection from './ServicesSection';
 import InquirySection from './InquirySection';
 import Footer from './Footer';
@@ -36,6 +37,7 @@ const App = () => {
     <div>
       <Navbar />
       <HomeSection />
+      <AboutUsSection/>
       <ServicesSection />
       <InquirySection />
       <Footer />

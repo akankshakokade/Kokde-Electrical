@@ -7,13 +7,13 @@ const HeroSection = () => {
     // Change background image every 20 seconds
     const intervalId = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage === 1 ? 2 : 1));
-    }, 20000);
+    }, 5000);
 
     // Cleanup the interval on component unmount
     return () => clearInterval(intervalId);
   }, []); // Empty dependency array ensures the effect runs only once on component mount
 
-  const backgroundImage = `url('path/to/background-image${currentImage}.jpg')`;
+  const backgroundImage = `url('https://github.com/akankshakokade/Kokde-Electrical/blob/main/kokde-electrical/src/Images/bg1.jpg?raw=true')`;
 
   return (
     <section
