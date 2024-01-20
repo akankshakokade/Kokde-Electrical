@@ -24,7 +24,7 @@ const AboutUsSection = () => {
         Who we are and what we do
       </p>
       <p className="text-lg md:text-xl lg:text-2xl mb-8">
-        Tejal Electrical is a Govt. Licensed Electrical Contractor. Started as a small business in 2007, Tejal Electrical has since designed and built many of the most complex commercial and industrial projects in Maharashtra. Our projects feature essential electrical, communications. Many local residences also benefit from our services—no project is too big or too small for our dedicated crew.
+        Kokde Electrical is a Govt. Licensed Electrical Contractor. Started as a small business in 2019, Kokde Electrical has since designed and built many of the most complex commercial and industrial projects in Maharashtra. Our projects feature essential electrical, communications. Many local residences also benefit from our services—no project is too big or too small for our dedicated crew.
       </p>
 
       {/* Vision Card */}
@@ -32,7 +32,7 @@ const AboutUsSection = () => {
         <div className="bg-white p-6 rounded-md shadow-md md:w-1/2">
           <h3 className="text-xl font-bold mb-4">Our Vision</h3>
           {/* You can replace the image source with your own */}
-          <img src="path/to/vision-image.png" alt="Vision" className="mb-4 w-16 h-16 mx-auto" />
+          <img src="https://github.com/akankshakokade/Kokde-Electrical/blob/main/kokde-electrical/src/Images/sym1.jpg?raw=true" alt="Vision" className="mb-4 w-16 h-16 mx-auto" />
           <p>
             To be the leader in providing comprehensive solutions to help our customers take advantage of their opportunities. We strive to be the best by offering a standard of workmanship and knowledge, safe working procedures, practices and policies, and the installation of quality apparatus.
           </p>
@@ -42,7 +42,7 @@ const AboutUsSection = () => {
         <div className="bg-white p-6 rounded-md shadow-md md:w-1/2">
           <h3 className="text-xl font-bold mb-4">Our Mission</h3>
           {/* You can replace the image source with your own */}
-          <img src="path/to/mission-image.png" alt="Mission" className="mb-4 w-16 h-16 mx-auto" />
+          <img src="https://github.com/akankshakokade/Kokde-Electrical/blob/main/kokde-electrical/src/Images/sym2.png?raw=true" alt="Mission" className="mb-4 w-16 h-16 mx-auto" />
           <p>
             Our never-ending goal is to create outstanding solutions for our clients and build long-lasting relationships by taking on a partnership role and providing quality work, knowledge of the industry, and the best possible customer service on an ongoing basis.
           </p>
